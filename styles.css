@@ -1,0 +1,160 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+/* Navbar */
+.navbar {
+  padding: 5px 0;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Magnetic Effect */
+.magnetic {
+  display: inline-block;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.magnetic:hover {
+  transform: scale(1.1);
+}
+
+/* Navigation Icons */
+.nav-icons {
+  gap: 18px;
+}
+
+.nav-icon {
+  font-size: 20px;
+  transition: 0.3s ease;
+}
+
+.nav-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Skill Cards */
+.skill-card {
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Cards */
+.project-card {
+  transition: 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+  width: 100vw;
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Contact Icons */
+.contact-icons {
+  gap: 25px;
+  font-size: 24px;
+}
+
+.contact-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.contact-icon:hover {
+  transform: translateY(-5px) scale(1.1);
+}
+
+/* Brand Colors */
+.phone-icon {
+  color: #0d6efd;
+}
+
+.email-icon {
+  color: #dc3545;
+}
+
+.linkedin-icon {
+  color: #0A66C2;
+}
+
+.github-icon {
+  color: #000;
+}
+
+.whatsapp-icon {
+  color: #25D366;
+}
+
+.instagram-icon {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Developer Brand */
+.coder-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #010711 !important;
+}
+
+/* Typing Text */
+.typing-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #38bdf8;
+  border-right: 3px solid #38bdf8;
+  white-space: nowrap;
+  overflow: hidden;
+  width: fit-content;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
